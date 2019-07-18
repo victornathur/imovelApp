@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>ImovelAdd</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+
+    <ion-card-header>
+      Adicionar Imovél
+    </ion-card-header>
+
+    <ion-card-content>
+
+      <ion-item>
+        <ion-input placeholder="Descricao" [(ngModel)]="imovel.descricao"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input placeholder="Categoria" [(ngModel)]="imovel.categoria"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input placeholder="Endereço" [(ngModel)]="imovel.endereco"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input placeholder="Qtd quartos" [(ngModel)]="imovel.qtd_quartos"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input placeholder="Qtd Banheiros" [(ngModel)]="imovel.qtd_banheiros"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input [(ngModel)]="imovel.luxo"></ion-input>
+      </ion-item>
+      <ion-button expand="full" (click)="add()">Adicionar</ion-button>
+
+    </ion-card-content>
+
+  </ion-card>
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "imovelApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
